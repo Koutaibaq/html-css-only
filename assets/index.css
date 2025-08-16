@@ -1,0 +1,109 @@
+.mainn{
+    display:inline-flex ;
+    
+    
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    
+    
+    
+}
+.artt{
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+}
+
+.artt img {
+    width: 200px;
+    height: 200px;
+    opacity: 0.7;
+    
+    
+
+}
+
+.artt h2{
+    position: absolute;
+    bottom: 10px;
+    color: white;
+}
+
+img:hover{
+    opacity: 1;
+    width: 500px;
+    
+}
+#footer {
+    display: none;
+
+
+}
+#footer:target {
+display: block;
+display: flex;
+flex-direction: row;
+    justify-content:center;
+    gap: 30px;
+
+}
+.fot{
+    background-color: black;
+    color:white;
+
+    
+}
+
+.fir{
+    width:300px;
+    background-color:rgb(39, 38, 38) ;
+    
+}
+.sec{
+    background-color: rgb(39, 38, 38);
+    width: 400px;
+}
+ input{
+    display: inline;
+    margin: 5px;
+    border-radius: 3px;
+    height: 20px;
+}
+textarea{
+    width:300px ;
+    height: 100px;
+}
+button{
+    background-color: aqua;
+    color: white;
+}
+input:active{
+    border-color:yellow;
+}
+.hhh {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.hhh a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 70px;
+    background-color: grey;
+    border-radius: 10px;
+    border-color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
+
